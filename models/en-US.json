@@ -1,0 +1,117 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "codequizzer",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StartOverIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AnswerIntent",
+                    "slots": [
+                        {
+                            "name": "CodingLanguageName",
+                            "type": "CodingLanguageNameType"
+                        }
+                    ],
+                    "samples": [
+                        "{CodingLanguageName}",
+                        "tell me about {CodingLanguageName}",
+                        "what do you know about {CodingLanguageName}",
+                        "{CodingLanguageName} information"
+                    ]
+                },
+                {
+                    "name": "QuizIntent",
+                    "slots": [],
+                    "samples": [
+                        "start a quiz",
+                        "start a quiz game",
+                        "and start a quiz",
+                        "and quiz me",
+                        "for a quiz",
+                        "a quiz"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "CodingLanguageNameType",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "SQL"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "PHP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "HTML"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Go"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "C#"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "JavaScript"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Python"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "C++"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "C"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Java"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
